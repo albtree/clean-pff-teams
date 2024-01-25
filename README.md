@@ -1,5 +1,5 @@
 # clean-pff-teams
-Function to clean Pro Football Focus (PFF) College Football Team Names to those used by College Football Data (CFBD) - for the level of FBS only. Future plans may include to add FCS teams.
+Function to clean Pro Football Focus (PFF) College Football Team Names to those used by College Football Data (CFBD) - for the level of FBS only. Future plans may include to add FCS teams. Likely to be used alongside the cfbfastR package.
 
 **Example**
 If pff_dataframe is an example dataframe that includes PFF team names under the variable name - team_name
