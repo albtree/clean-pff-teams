@@ -68,4 +68,4 @@ clean_teams_pff_to_cfbd <- function(x){x <- case_when(x == "MIAMI FL" ~ "Miami",
                                                   x == "CAL" ~ "California",
                                                   x == "NWESTERN" ~ "Northwestern",
                                                   x == "KANSAS ST" ~ "Kansas State",
-                                                  TRUE ~ x)}
+                                                  TRUE ~ str_to_title(x))}
